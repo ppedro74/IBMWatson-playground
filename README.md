@@ -5,7 +5,7 @@ Visual Studio 2017 project:
 .NET 4.6.1 WinForms Application
 .NET IBM.WatsonDeveloperCloud.TextToSpeech.v1 (.NET Standard Library)
 
-Does not work this statement:
+This statement does not work:
 
 ```
 var service = new TextToSpeechService(tokenOptions);
