@@ -1,8 +1,6 @@
 # A playground to test and troubleshoot IBM Watson Services
 
-1)
-IBMWatsonServicesTest
-
+##1) IBMWatsonServicesTest
 Visual Studio 2017 project:
 .NET 4.6.1 WinForms Application
 .NET IBM.WatsonDeveloperCloud.TextToSpeech.v1 (.NET Standard Library)
@@ -29,7 +27,7 @@ System.Security.VerificationException: Method System.Net.Http.CloneableExtension
 Is related to this issue: https://github.com/dotnet/corefx/issues/11100
 
  
-Workaround/Solution:
+###Workaround/Solution:
 
 Step 1:
 In /Project/PropertyGroup*1 (the first PropertyGroup element of Project), add the following line, or change the value of this element if it already exists: <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
